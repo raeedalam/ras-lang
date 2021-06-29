@@ -1,3 +1,3 @@
 # RAS Lang
 
-RAS is a simple coding lang made in python.
+RAS is a very low-level coding language

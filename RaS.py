@@ -47,6 +47,36 @@ def run(text):
                     print("True")
                 else:
                     print("False")
+        elif tok[0] == "chk" and tok[1] and tok[3] in "0123456789" and tok[2] == "==":
+            if tok[1] == tok[3]:
+                print("True")
+            else:
+                print("False")
+        elif tok[0] == "chk" and tok[2] == "==":
+           if tok[1][0] == "$":
+            for i in var:
+                rData = i.split("%^%")
+                vName = rData[0]
+                vData = rData[1]
+                if vData == tok[3]:
+                    print("True")
+                else:
+                    print("False")
+        elif tok[0] == "chk" and tok[2] == "==":
+           if tok[3][0] == "$":
+            for i in var:
+                rData = i.split("%^%")
+                vName = rData[0]
+                vData = rData[1]
+                if vData == tok[1]:
+                    print("True")
+                else:
+                    print("False")
+        elif tok[0] == "chk" and tok[2] == "==":
+            if tok[1] == tok[3]:
+                print("True")
+            else:
+                print("False")
         elif tok[0] == "exit":
             exit("Program done.")
         else:
