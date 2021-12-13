@@ -1,6 +1,6 @@
 ---
 title: Download
-subtitle: Get the HaxPro IDE or the HaxPro CLI
+subtitle: Get RAS-Lang
 layout: product-category
 show_sidebar: false
 sort: title
