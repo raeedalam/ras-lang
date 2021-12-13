@@ -1,4 +1,9 @@
-# RAS Lang
+---
+title: ras-lang
+layout: template
+filename: index
+--- 
+
 # Welcome
 Welcome to RAS Lang a simple language that is low level
 
