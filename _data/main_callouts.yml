@@ -4,24 +4,24 @@ items:
   - title: Easy to use
     icon: fa-space-shuttle
     description: >
-      HaxPro is easy to use, while being powerful.
+      RAS Lang is easy to use, while being powerful.
 
-      HaxPro is well documented, so you will never have trouble using it!
+      RAS Lang is well documented, so you will never have trouble using it!
     call_to_action_name: Read Docs
     call_to_action_link: /docs/
   - title: Many extensions
     icon: fa-wrench
     description: >
-      HaxPro allows you to create extensions to extend the capabilities
+      RAS Lang allows you to create extensions to extend the capabilities
 
       of the language.
 
     call_to_action_name:  Go visit the Marketplace now!
     call_to_action_link: /store/
-  - title: HaxPro is on GitHub
+  - title: RAS Lang is on GitHub
     icon: fab fa-github
     description: >
-      HaxPro is on GitHub, which anyone can edit code or propose changes!
+      RAS Lang is on GitHub, which anyone can edit code or propose changes!
 
       Open-Source is the way!
     call_to_action_name: Open GitHub repo
