@@ -1,4 +1,4 @@
-# Variables
+## Variables
 * `Variables` is a number, string, or more and stores data, whatever you make it equal to it repesents that data
 * An example of a `Variable` is like this:
 ```javascript
@@ -9,7 +9,7 @@ var number = 2
 * `name, number` is the name of the variable
 * `"Bob", 2` is the data the the variable stores are repesents
 
-# Variables in RAS Lang
+## Variables in RAS Lang
 Making a Variable in RAS Lang is just the example at the top
 To create one, simply follow the code below
 ```javascript
