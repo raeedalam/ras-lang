@@ -19,4 +19,3 @@ filename: docs
 <a href="https://raeedalam.github.io/ras-lang/docs/input">Getting Input<a>
 <br>
 <a href="https://raeedalam.github.io/ras-lang/docs/if">If statements<a>
-</details>
