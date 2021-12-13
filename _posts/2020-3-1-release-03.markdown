@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Just released v0.3!"
+date:   2020-3-1 10:00:00
+categories: development
+description: "Info on release v0.3"
+image: 'https://alamshafil.github.io/HaxPro/img/fireworks.jpg'
+published: true
+canonical_url: https://alamshafil.github.io/HaxPro/development/2020/3/1/release-03.html
+---
+
+# Info on release v0.3
+This release contains a brand new UI design which is easier to use and a new editor! With this release, you need to install the [HaxPro SDK](https://github.com/alamshafil/haxpro-cli/releases) in order to compile and run your apps.
+
+# Ok, what else?
+List of new features:
+* New UI
+* New editor
+* Syntax coloring `(Work in Progress)`
+* Intellisense `(Work in Progress)`
+* New file format `.haxproj`
+* Bug fixes
+* Updated `Electron` and `NodeJS`
+
+# *Important note*
+*Note: For now, there will be only Windows builds, I am trying to port the HaxPro SDK to Linux and macOS.*

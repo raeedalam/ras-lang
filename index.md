@@ -1,13 +1,17 @@
 ---
-title: Home
-layout: template
-filename: index
---- 
+layout: page
+title: RAS Lang
+subtitle: A programming language designed to be robust and easy.
+hero_height: is-large
+hero_link: /download/
+hero_link_text: Download Now
+hero_image: hero.png
+show_sidebar: false
+callouts: main_callouts
+---
 
 # Welcome
-Welcome to RAS Lang a simple language that is low level
-
-and not a real language, it is just a project
+Welcome to RAS Lang!
 
 # Get Started
 First, download the [RAS-Lang Source Code](https://github.com/raeedalam/ras-lang/) then open your preferred IDE.
@@ -15,7 +19,7 @@ First, download the [RAS-Lang Source Code](https://github.com/raeedalam/ras-lang
 # Create a new project
 In your preferred IDE, Create a new file with .ras
 
-![Image](https://raeedalam.github.io/ras-lang/sc1.png)
+![Image](https://raeedalam.github.io/ras-lang/img/sc1.png)
 
 # Basic Coding
 Start by going into the `.ras` file we made
@@ -38,6 +42,6 @@ python ras-run.py app.ras
 ```
 lets see our final product!
 
-![Image](https://raeedalam.github.io/ras-lang/sc2.png)
+![Image](https://raeedalam.github.io/ras-lang/img/sc2.png)
 
 You made your first RAS program!
