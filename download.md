@@ -6,7 +6,20 @@ filename: download
 
 # Docs
 <details>
-<summary>How do I dropdown?</summary>
+<summary>Documentation</summary>
 <br>
-This is how you dropdown.
+<a href="print.md">Print<a>
+
+  
+<a href="vars.md">Vars<a>
+  
+<a href="while.md">While<a>
+  
+<a href="each.md">For loop<a>
+  
+<a href="func.md">Functions<a>
+  
+<a href="input.md">Getting Input<a>
+
+<a href="if.md">If statements<a>
 </details>
