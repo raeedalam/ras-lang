@@ -1,7 +1,7 @@
 ---
 title: Docs
 layout: template
-filename: download 
+filename: docs 
 --- 
 
 # Docs
