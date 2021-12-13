@@ -7,5 +7,7 @@
       items:
         - name: "Variables"
           link: /docs/vars/
+        - name: "User Input"
+          link: /docs/input/
     - name: Blog
       link: /blog/
