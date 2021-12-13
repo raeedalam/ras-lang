@@ -5,5 +5,7 @@
           link: /docs/vars/
         - name: "User Input"
           link: /docs/input/
+        - name: "Arrays"
+          link: /docs/array/
     - name: Blog
       link: /blog/
