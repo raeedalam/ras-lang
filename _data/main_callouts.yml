@@ -8,16 +8,8 @@ items:
 
       RAS Lang is well documented, so you will never have trouble using it!
     call_to_action_name: Read Docs
-    call_to_action_link: /docs/
-  - title: Many extensions
-    icon: fa-wrench
-    description: >
-      RAS Lang allows you to create extensions to extend the capabilities
-
-      of the language.
-
-    call_to_action_name:  Go visit the Marketplace now!
-    call_to_action_link: /store/
+    call_to_action_link: /docs/vars
+  
   - title: RAS Lang is on GitHub
     icon: fab fa-github
     description: >
