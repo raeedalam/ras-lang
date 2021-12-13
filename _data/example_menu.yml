@@ -6,6 +6,6 @@
       link: /#
       items:
         - name: "Variables"
-          link: /docs/var/
+          link: /docs/vars/
     - name: Blog
       link: /blog/
