@@ -1,5 +1,5 @@
 ---
-title: Download
+title: Docs
 layout: template
 filename: download 
 --- 
