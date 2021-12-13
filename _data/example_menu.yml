@@ -5,10 +5,8 @@
     - name: Docs
       link: /#
       items:
-        - name: "use:"
-          link: /docs/use/
-        - name: "write:"
-          link: /docs/write
+        - name: "Variables"
+          link: /docs/var/
     - name: Tutorials
       link: /#
       items:
