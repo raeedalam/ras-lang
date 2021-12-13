@@ -12,7 +12,7 @@ filename: docs
   <br>
 <a href="https://raeedalam.github.io/ras-lang/docs/while">While<a>
   <br>
-<a href="https://raeedalam.github.io/ras-lang//docs/each">For loop<a>
+<a href="https://raeedalam.github.io/ras-lang/docs/each">For loop<a>
   <br>
 <a href="https://raeedalam.github.io/ras-lang/docs/func">Functions<a>
   <br>
