@@ -1,4 +1,9 @@
 # Welcome
+Welcome to RAS Lang a simple language that is low level
+
+and not a real language, it is just a project
+
+# Get Started
 First, download the [RAS-Lang Source Code](https://github.com/raeedalam/ras-lang/) then open your preferred IDE.
 
 # Create a new project
