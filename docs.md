@@ -8,15 +8,15 @@ filename: docs
 <details>
 <summary>Documentation</summary>
   
-<a href="/docs/vars">Vars<a>
+<a href="/ras-lang/docs/vars">Vars<a>
   <br>
-<a href="/docs/while">While<a>
+<a href="/ras-lang/docs/while">While<a>
   <br>
-<a href="/docs/each">For loop<a>
+<a href="/ras-lang/docs/each">For loop<a>
   <br>
-<a href="/docs/func">Functions<a>
+<a href="/ras-lang/docs/func">Functions<a>
   <br>
-<a href="/docs/input">Getting Input<a>
+<a href="/ras-lang/docs/input">Getting Input<a>
 <br>
-<a href="/docs/if">If statements<a>
+<a href="/ras-lang/docs/if">If statements<a>
 </details>
