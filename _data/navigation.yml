@@ -13,5 +13,7 @@
           link: /docs/if/
         - name: "While Loops"
           link: /docs/while/
+        - name: "For Loops"
+          link: /docs/for/
     - name: Blog
       link: /blog/
