@@ -21,5 +21,12 @@ my_function
 * `my_function` is the name of you function
 * `:` when you put that you are gonna put code after that
 * `my_function` is calling that function and running the code in it
+* You can also use variables in functions:
+
+```
+var name = Bob
+func my_function: print $name
+my_function
+```
 
 KABOOM, now you can do functions
