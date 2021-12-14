@@ -21,5 +21,6 @@ each name -> $array: print this.name
 * `name` is the item iterating name
 * `$array` is the array or thing we want to loop and the dollar sign gets the variable array
 * `: print this.name` is the code for each item we are looping through and this means to get the the item iterating and name
+* also there is variable use
 
 For loops, check!
