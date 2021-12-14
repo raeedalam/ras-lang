@@ -9,5 +9,7 @@
           link: /docs/array/
         - name: "Functions"
           link: /docs/function/
+        - name: "If Statements"
+          link: /docs/if/
     - name: Blog
       link: /blog/
