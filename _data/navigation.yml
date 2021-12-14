@@ -11,5 +11,7 @@
           link: /docs/function/
         - name: "If Statements"
           link: /docs/if/
+        - name: "While Loops"
+          link: /docs/while/
     - name: Blog
       link: /blog/
