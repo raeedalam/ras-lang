@@ -18,5 +18,11 @@ if -> 1 = 1: print Yay
 * `if`, tells the program that this is a if statement
 * `->`, means that we want to go check if our statements is true or nor
 * `1 = 1` is the statement that we want to check if true or nor
+* Variables are also used in this:
+
+```
+var name = Bob
+if -> 1 = 1: print $name
+```
 
 YAY, we now know if statements
