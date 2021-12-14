@@ -7,5 +7,7 @@
           link: /docs/input/
         - name: "Arrays"
           link: /docs/array/
+        - name: "Functions"
+          link: /docs/function/
     - name: Blog
       link: /blog/
