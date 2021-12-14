@@ -15,5 +15,7 @@
           link: /docs/while/
         - name: "For Loops"
           link: /docs/for/
+        - name: "Comments"
+          link: /docs/comments/
     - name: Blog
       link: /blog/
