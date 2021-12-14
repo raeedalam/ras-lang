@@ -19,5 +19,6 @@ while -> 1 = 1: print 1 does equal 1
 * `while`, tells the program to start a while loop
 * `->`, means we want to check if the statement is true or and will continue printing or more
 * `1 = 1` is the statement we want to check
+* and can have variables in it
 
 Another day, Another Skill
