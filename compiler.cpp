@@ -268,6 +268,55 @@ void Compiler::parse(string text, vector<string> local)
                 string args = "*" + var_item + "%^%" + data;
                 parse(code, { args });
             }
+        } else if(tok[0] == "while") {
+            check(tok, 4);
+            string op_type = tok[3];
+            string test = split(line, "->")[1];
+            replace(test, ":", "");
+            test = strip(test);
+            string code = split(line, ":")[1];
+            code = strip(code);
+            string data = test;
+            replace(data, code, "");
+
+            if(op_type == "=") {
+                vector<string> testing = split(data, "=");
+                check(testing, 1);
+                string op1 = strip(testing[0]);
+                string op2 = strip(testing[1]);
+                if(op1[0] == '$'){
+                    while(getVar(op1) == op2){
+                        parse(code);
+                    }
+                } else if(op2[0] == '$'){
+                    while(op1 == getVar(op2)){
+                        parse(code);
+                    }
+                }
+                while(op1 == op2) {
+                    parse(code);
+                }
+            } else if(op_type == "!="){
+                vector<string> testing = split(data, "!=");
+                check(testing, 1);
+                string op1 = strip(testing[0]);
+                string op2 = strip(testing[1]);
+                if(op1[0] == '$'){
+                    while(getVar(op1) != op2){
+                        parse(code);
+                    }
+                } else if(op2[0] == '$'){
+                    while(op1 != getVar(op2)){
+                        parse(code);
+                    }
+                }
+                while(op1 != op2) {
+                    parse(code);
+                }
+            } else {
+                error(line, "Unknown char!!");
+            }
+
         } else if(tok[0] == "exit") {
             exit(0);
         } else if(tok[0] == "#") {
