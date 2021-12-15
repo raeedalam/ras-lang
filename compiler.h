@@ -17,6 +17,7 @@ public:
     void parse(string text, vector<string> local={});
     void error(string line, string info="Unknown Definition", string type="warning");
     string getVar(string var_name);
+    void setVar(string var_name, string data);
     string getLocalVar(string var_name, vector<string> local);
     string getFunc(string func_name);
 

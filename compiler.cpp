@@ -102,6 +102,19 @@ string Compiler::getVar(string var_name)
     return "Not found";
 }
 
+void Compiler::setVar(string var_name, string data)
+{
+    for(size_t i=0; i < vars.size(); ++i) {
+        string varObj = vars[i];
+        vector<string> rawData = split(varObj, "%^%");
+        string varName = rawData[0];
+        string varData = rawData[1];
+        if(var_name == varName) {
+           vars[i] = varName + "%^%" + data;
+        }
+    }
+}
+
 string Compiler::getLocalVar(string var_name, vector<string> local)
 {
     for(const string &varObj : local) {
@@ -323,6 +336,9 @@ void Compiler::parse(string text, vector<string> local)
             // Comment
         } else if(tok[0] == "") {
             // Empty line
+        } else if(tok[0][0] == '$') {
+            check(tok, 2);
+            setVar(tok[0], tok[2]);
         } else if(getFunc(tok[0]) != "Not found") {
             parse(getFunc(tok[0]));
         } else {
