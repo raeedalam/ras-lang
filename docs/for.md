@@ -13,7 +13,7 @@ for name in array:
 Look below for code
 
 ```
-var array = <bob>, <ross>, <duke>
+var array = bob, ross, duke
 each name -> $array: print *name
 ```
 
