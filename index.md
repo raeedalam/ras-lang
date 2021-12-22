@@ -42,6 +42,6 @@ ras-lang <filename>.ras
 ```
 lets see our final product!
 
-![Image](https://raeedalam.github.io/ras-lang/img/sc2.png)
+![Image](https://github.com/raeedalam/ras-lang/blob/gh-pages/img/s2.png)
 
 You made your first RAS program!
