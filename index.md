@@ -19,7 +19,7 @@ In your preferred IDE, Go into the terminal and type `ras-lang create <filename>
 
 Which will create an .ras file
 
-![Image](https://raeedalam.github.io/ras-lang/img/sc1.png)
+![Image](https://raeedalam.github.io/ras-lang/img/s1.png)
 
 # Basic Coding
 Start by going into the `.ras` file we made
