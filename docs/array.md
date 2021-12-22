@@ -10,9 +10,8 @@ cars = ["Ford", "Volvo", "BMW"]
 # Arrays in RAS Lang
 To make arrays in RAS Lang, Its very simple, look below to see the code
 ```
-var cars = <Ford>, <Volvo>, <BMW>
+var cars = Ford, Volvo, BMW
 ```
-* `<>`, putting those around our value or object, means that it is an object in our array
 * `,` separates the objects in our array
 * Lastly we put in a variable
 
