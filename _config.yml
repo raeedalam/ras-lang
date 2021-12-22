@@ -67,4 +67,4 @@ collections:
     image: https://via.placeholder.com/800x600
     show_sidebar: fals
 
-theme: bulma-clean-theme
+theme: jekyll-theme-cayman
