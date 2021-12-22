@@ -12,10 +12,12 @@ callouts: main_callouts
 Welcome to RAS Lang!
 
 # Get Started
-First, download the [RAS-Lang Source Code](https://github.com/raeedalam/ras-lang/) then open your preferred IDE.
+First, download [RAS Lang](https://github.com/raeedalam/ras-lang/releases/tag/v1.2) then open your preferred IDE.
 
 # Create a new project
-In your preferred IDE, Create a new file with .ras
+In your preferred IDE, Go into the terminal and type `ras-lang create <filename>.ras`
+
+Which will create an .ras file
 
 ![Image](https://raeedalam.github.io/ras-lang/img/sc1.png)
 
@@ -36,7 +38,7 @@ Then we're done! lets test it out
 In the terminal write
 
 ```bash
-python ras-run.py app.ras
+ras-lang <filename>.ras
 ```
 lets see our final product!
 
