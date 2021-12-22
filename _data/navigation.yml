@@ -17,7 +17,7 @@
           link: /docs/for/
         - name: "Comments"
           link: /docs/comments/
-    - name: Blog
-      link: /blog/
     - name: Downloads
       link: /docs/downloads
+    - name: Blog
+      link: /blog/
