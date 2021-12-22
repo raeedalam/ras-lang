@@ -6,10 +6,10 @@ First, Go onto the [RAS Lang Github page](github.com/raeedalam/ras-lang) and, Fi
 After that Download the Linux or Windows download
 
 # Linux
-After downloading, Go into your terminal and enter the folder where you download the file.
+After downloading, Rename it to `ras-lang`, then Go into your terminal and enter the folder where you download the file.
 To install it `ras-lang` type:
 ```
-mv ras-lang-linux /usr/local/bin/ras-lang
+mv ras-lang /usr/local/bin/ras-lang
 chmod +x /usr/local/bin/ras-lang
 ```
 
@@ -17,6 +17,8 @@ Congrats! You installed `ras-lang` in Linux! You can type `ras-lang create <name
 
 # Windows 10
 Download the file, then create a folder named `RAS Lang` or anything else and put the downloaded .exe file in there
+
+and rename it to `ras-lang`
 
 After that find `This PC` and right click, then click `Properties`
 
