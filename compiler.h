@@ -19,7 +19,9 @@ public:
     string getVar(string var_name);
     void setVar(string var_name, string data);
     string getLocalVar(string var_name, vector<string> local);
-    string getFunc(string func_name);
+    string getFunc(string func_name, bool getArgs=false);
+    string parseExpr(string tok0, string tok1, string line, vector<string> local);
+    void parseMulti(bool isFunc, string code, string rawName, vector<string> lines, int i);
 
     void print(string str);
     vector<string> split(string s, string delimiter);
@@ -32,6 +34,7 @@ private:
     int l;
     vector<string> vars;
     vector<string> funcs;
+    bool multiLine;
 };
 
 #endif // COMPILER_H
